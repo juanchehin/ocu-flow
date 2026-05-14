@@ -423,6 +423,24 @@ Class Master extends DBConnection {
 		return json_encode($resp);
 
 	}
+
+	function save_history(){
+		extract($_POST);
+		$data = "";
+		foreach($_POST as $k =>$v){
+			if(!in_array($k,array('id'))){
+				if(!empty($data)) $data .=",";
+				$data .= " `{$k}`='{$this->conn->real_escape_string($v)}' ";
+			}
+		}
+		$sql = "INSERT INTO `history_list` set {$data} ";
+		$save = $this->conn->query($sql);
+		if($save){
+			return json_encode(['status'=>'success']);
+		}else{
+			return json_encode(['status'=>'failed', 'err'=>$this->conn->error]);
+		}
+	}
 }
 
 $Master = new Master();

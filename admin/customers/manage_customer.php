@@ -85,8 +85,8 @@ if(isset($_GET['id'])){
 	<div class="card-footer">
 			<div class="col-md-12">
 				<div class="row">
-					<button class="btn btn-sm btn-dark rounded-0 mr-3" form="update-form">Save User Detalles</button>
-					<a href="./?page=customers/" class="btn btn-sm btn-default border rounded-0" form="update-form"><i class="fa fa-angle-left"></i> Cancel</a>
+					<button class="btn btn-sm btn-dark rounded-0 mr-3" form="update-form">Guardar User Detalles</button>
+					<a href="./?page=customers/" class="btn btn-sm btn-default border rounded-0" form="update-form"><i class="fa fa-angle-left"></i> Cancelar</a>
 				</div>
 			</div>
 		</div>

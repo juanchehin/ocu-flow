@@ -84,7 +84,7 @@
               <li class="nav-item dropdown">
                 <a href="<?php echo base_url ?>admin/?page=patients" class="nav-link nav-patients">
                   <i class="nav-icon fas fa-user-injured"></i>
-                  <p>Historias Clínicas</p>
+                  <p>Pacientes</p>
                 </a>
               </li>
 

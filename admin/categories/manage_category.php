@@ -38,8 +38,8 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 				</div>
 			</div>
 			<div class="card-footer py-1 text-center">
-				<button class="btn btn-dark btn-sm bg-gradient-dark btn-flat" form="category-form"><i class="fa fa-save"></i> Save</button>
-				<a class="btn btn-light btn-sm bg-gradient-light border btn-flat" href="./?page=categories"><i class="fa fa-times"></i> Cancel</a>
+				<button class="btn btn-dark btn-sm bg-gradient-dark btn-flat" form="category-form"><i class="fa fa-save"></i> Guardar</button>
+				<a class="btn btn-light btn-sm bg-gradient-light border btn-flat" href="./?page=categories"><i class="fa fa-times"></i> Cancelar</a>
 			</div>
 		</div>
 	</div>

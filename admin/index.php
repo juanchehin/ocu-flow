@@ -41,8 +41,8 @@
       <div class="modal-body">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-dark rounded-0" id='submit' onclick="$('#uni_modal form').submit()">Save</button>
-        <button type="button" class="btn btn-secondary rounded-0" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-dark rounded-0" id='submit' onclick="$('#uni_modal form').submit()">Guardar</button>
+        <button type="button" class="btn btn-secondary rounded-0" data-dismiss="modal">Cancelar</button>
       </div>
       </div>
     </div>
